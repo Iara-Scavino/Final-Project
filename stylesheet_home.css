@@ -1,0 +1,36 @@
+.navbar ul{
+	list-style-type: none;
+	background-color:#4b4f4f;
+	padding:0px;
+	margin:0px;
+	overflow: hidden;
+}
+.navbar a{
+	color:#fafcfc;
+	text-decoration: none;
+	padding:15px;
+	display: block;
+	text-align: center;
+}
+.navbar a:hover{
+	background-color:#6c7070 ;
+}
+.navbar li{
+	float: left;
+}
+.navCell{
+	padding: 0px;
+}
+.title {
+  position: relative;
+  text-align: center;
+  color: antiquewhite;
+ }
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-family: "Ephesis", cursive;
+  font-size: 200pt ;
+  }
+

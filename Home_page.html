@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="stylesheet_home.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Ephesis&family=Lobster&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+</head>
+<body>
+	<table border="1" width="100%">
+		<tr>
+			<td width="265" height="40" colspan="3"> A </td>
+			<td width="200" height="40" colspan="2" class="navCell"> 
+				<nav class="navbar">
+  					<ul> 
+  						<li> <a class="active" href="#home">Home</a> </li>
+  						<li> <a href="#discounts">Discounts</a> </li>
+ 						<li> <a href="#discounts">Contact</a></li>
+ 						<li> <a href="about_us.html" target="_blank">About us</a> </li>
+  					</ul>
+  				</nav>
+			</td>
+		</tr>
+		<tr>
+			<td width="855" height="480" colspan="5"> 
+				<div class="title"> 
+					<img id="myImage" onclick="changeImage()" src="image_pool.jpg" width="100%" height="480">
+						<div class="top-left"> Glamho </div>
+							<script>
+								function changeImage() {
+  									var image = document.getElementById('myImage');
+  									if (image.src.match("image_pool_2")) {
+   									 image.src = "image_pool.jpg";
+  											} else {
+    											image.src = "image_pool_2.jpg";
+  											}
+										}
+							</script>
+						</div>
+
+			</td>
+		</tr>
+		<tr>
+			<td width="855" height="30" colspan="5"> F </td>
+		</tr>
+		<tr>
+			<td width="855" height="400" colspan="5"> G </td>
+		</tr>
+		<tr>
+			<td width="176" height="400" colspan="2"> H </td>
+			<td width="288" height="400" colspan="3"> I </td>
+		</tr>
+		<tr>
+			<td width="855" height="30" colspan="5"> J </td>
+		</tr>
+		<tr>
+			<td width="150" height="480"> K </td>
+			<td width="530" height="480" colspan="3"> L </td>
+			<td width="150" height="480"> M </td>
+		</tr>
+		<tr>
+			<td width="855" height="30" colspan="5"> N </td>
+		</tr>
+		<tr>
+			<td width="100" height="480"> O </td>
+			<td width="100" height="480"> P </td>
+			<td width="100" height="480"> Q </td>
+			<td width="100" height="480"> R </td>
+			<td width="100" height="480"> S </td>
+		</tr>
+		<tr>
+			<td width="855" height="480" colspan="5"> T </td>
+		</tr>
+
+
+	</table>
+
+</body>
+</html>
