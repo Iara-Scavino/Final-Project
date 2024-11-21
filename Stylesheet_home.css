@@ -18,3 +18,30 @@
 .navbar li{
 	float: left;
 }
+.navCell{
+	padding: 0px;
+}
+.title {
+  position: relative;
+  text-align: center;
+  color: antiquewhite;
+ }
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-family: "Ephesis", cursive;
+  font-size: 200pt ; 
+  }
+  .subtitle {
+  position: relative;
+  text-align: center;
+  color: antiquewhite;
+ }
+  .top-left.subtitle {
+  	position: absolute;
+  top: 100px;
+  left: 30px;
+  font-family: "Ephesis", cursive;
+  font-size: 80pt ; 
+  }
